@@ -39,8 +39,8 @@ function main() {
 
   console.log(message)
 
-  const numbers =
-    (48,
+  const numbers = [
+    48,
     59,
     40,
     40,
@@ -139,7 +139,8 @@ function main() {
     74,
     82,
     57,
-    77)
+    77,
+  ]
 
   let smallest = numbers[0]
   for (let i = 0; i < numbers.length; i++) {
